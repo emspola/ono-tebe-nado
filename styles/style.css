@@ -102,8 +102,6 @@
 .letter_n {
     letter-spacing: 5px;
 }
-
-
 .aligned-text {
     display: block;
     margin-bottom: 20px;
@@ -123,7 +121,6 @@
     justify-content: end;
 
 }
-
 .cover__description-text {
     color: #FFF;
     text-align: center;
@@ -133,6 +130,111 @@
     font-weight: normal;
     line-height: 28px; 
     text-transform: uppercase;
+}
+
+
+
+.lots {
+    padding: 180px 50px 90px;
+}
+.lots_heading {
+    margin-left: 40px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bord;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.lots__card-list {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lots__card-list-item {
+    list-style: none;
+    
+}
+.card-link {
+    display: block;
+    width: 430px;
+    height: 450px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+
+.card_type_film {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.card_type_book {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.card_type_picture {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.card__title {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.card__text  {
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    position: absolute;
+    bottom: 0;
+}
+.lots__look-more-link {
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    text-decoration: underline;
 }
 
 
