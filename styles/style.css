@@ -31,6 +31,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
+    cursor: pointer;
 }
 .header__link_active {
     text-decoration: none;
@@ -61,13 +62,13 @@
 .cover {
     padding: 165px 50px 50px 50px;
     position: relative;
-    z-index: -1;
     min-height: 757px;
     width: 100%;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 0;
 }
 
 .overlay {
@@ -140,6 +141,7 @@
     line-height: normal;
     text-transform: uppercase;
     background-color: transparent;
+    cursor: pointer;
 }
 
 
@@ -147,7 +149,7 @@
 .lots {
     padding: 180px 50px 90px;
 }
-.lots_heading {
+.lots__heading {
     margin-left: 40px;
     color: #000;
     font-size: 40px;
@@ -175,6 +177,7 @@
     height: 100%;
 }
 .card {
+    z-index: 0;
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -182,25 +185,18 @@
     justify-content: space-between;
     padding: 50px 40px;
     position: relative;
-    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .card__title {
     color: #FFF;
@@ -302,6 +298,7 @@
 }
 .footer__menu-link {
     text-decoration: underline;
+    cursor: pointer;
 }
 .footer__menu-link_active {
     text-decoration: none;
@@ -312,7 +309,10 @@
     justify-content: end;
     column-gap: 48px;
 }
-.footer__social-list-item {
+.footer__social-link {
+    cursor: pointer;
+}
+.footer__social-icon {
     width: 48px;
     height: 48px;
 } 
